@@ -1,0 +1,152 @@
+body{
+    background-color: white;
+    margin: 0;
+    font-family: 'Rubik';
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    height: 985px;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./images/fada.png);
+    font-family: 'Rock Salt';
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.sideLogo{
+    background-color: #0000005d;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding-left: 180px;
+    padding-right: 180px;
+    margin-bottom: 280px;
+}
+
+.mainBody{
+    display: flex;
+    flex-direction: column;
+    height: 290px;
+}
+
+
+.bodyHeader{
+    font-family: 'Rock Salt';
+    font-size: 25px;
+    font-weight: bolder;
+    background-color: rgb(214, 214, 214);
+    padding-top: 150px;
+    padding-left: 30px;
+    padding-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+.bodyText{
+    font-family: 'Rock Salt';
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.bodyForms{
+    display: flex;
+    height: 250px;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    border-color: #00000015;
+    outline: none;
+}
+
+.forms label{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(61, 61, 61);
+}
+
+.bodyFooter{
+    display: flex;
+    background-color: rgb(214, 214, 214);
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-bottom: 181px;
+    padding-top: 40px;
+    padding-left: 30px;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px inset;
+}
+
+.submitButton{
+    background-color: #596D48;
+    color: white;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: #596D48;
+    font-size: 20px;
+    width: 250px;
+    height: 50px;
+}
+
+.bodyLeft{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+    padding-right: 50px;
+    justify-content: space-evenly;
+}
+
+.bodyRight{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-bottom: 23px;
+}
+
+.haveAcc{
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+input:focus{
+    border: 2px solid rgba(25, 156, 189, 0.829);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.199);
+}
+
+.error{
+    border-color: red;
+    border-style: solid;
+    border-width: 2px;
+    color: red;
+}
+
+.errorMsg{
+    display: flex;
+    border: none;
+    font-size: 12px;
+}
+
+a{
+    text-decoration: none;
+    color: #596D48;
+    font-weight: bold;
+}
+
+input:valid{
+    border-color: green;
+}
